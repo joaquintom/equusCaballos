@@ -21,13 +21,21 @@ body {
 
 img{
 
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
+footer{
+
+    background-color: rgb(165, 165, 165);
+}
+
+/*Mobile First*/
+/*Pagina inicio*/
+
 .presentacion{
-   
-        padding-top: 50px;
-        padding-bottom: 50px;
+        
+        padding-top: 30px;
+        padding-bottom: 30px;
         
 }
 
@@ -37,14 +45,21 @@ img{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .imagenesDonar{
-
-        background-color: rgb(233, 233, 233);
-        padding-top: 30px;
-        padding-bottom: 20px;
+    background-color: rgb(233, 233, 233);
+    padding-top: 30px;
+     padding-bottom: 30px; 
 }
+
+.card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 .sobreRescates{
 
@@ -61,19 +76,123 @@ img{
 
 }
 
-footer{
+/*Pagina inicio*/
+/*TABLET*/
+/*Media Queries*/
+@media (min-width:481px) and (max-width: 1023px) {
 
-    background-color: rgb(165, 165, 165);
+    .presentacion{
+   
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .bannerDonar{
+    
+    background-image: linear-gradient(white, rgb(223, 223, 223));
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .imagenesDonar{
+    
+        background-color: rgb(233, 233, 233);
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .sobreRescates{
+    
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .bannerContacto{
+    
+    background-image: linear-gradient(white, rgb(182, 182, 182));
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    }
 }
 
+/*FIN TABLET*/
+
+
+/*DESKTOP*/
+/*Pagina inicio*/
+
+/*Media Queries*/
+@media (min-width:1024px) {
+
+
+.presentacion{
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.bannerDonar{
+
+background-image: linear-gradient(white, rgb(223, 223, 223));
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.imagenesDonar{
+
+    background-color: rgb(233, 233, 233);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sobreRescates{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bannerContacto{
+
+background-image: linear-gradient(white, rgb(182, 182, 182));
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+}
+
+/*FIN DESKTOP*/
+
+
+/******fin pagina inicio*******/
+
+
+
 /*pagina Donar*/
+
+/*Mobilefirst*/
+
+
 .introDonar{
 
     background-color: rgb(231, 231, 231);
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 40px;
 
 }
+
+.imgD{
+
+   display: none;
+}
+
 
 .galeriaDonar{
 
@@ -93,6 +212,85 @@ footer{
     padding-bottom: 20px;
 
 }
+
+/*TABLET DONAR*/
+@media (min-width:481px) and (max-width: 1023px) {
+
+
+    .introDonar{
+
+        background-color: rgb(231, 231, 231);
+        padding-top: 30px;
+        padding-bottom: 40px;
+    
+    }
+
+    .imgD{
+        display: inline-block;
+        padding-top: 10px;
+    }
+         
+    .galeriaDonar{
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+       
+    }
+    
+    .botonD{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+
+}
+
+/*DESKTOP DONAR*/
+@media (min-width:1024px) {
+
+    .introDonar{
+
+        background-color: rgb(231, 231, 231);
+        padding-top: 30px;
+        padding-bottom: 40px;
+    
+    }
+
+    .imgD{
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+    .galeriaDonar{
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+       
+    }
+    
+    .botonD{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+}
+
+/*Hasta aca el desafio de 2 paginas con media y animaciones*/
+
 
 /*Pagina Rescates*/
 .introRescates{
