@@ -1,0 +1,236 @@
+/*comentario de css puro*/
+/*Mobile First*/
+/*Pagina inicio*/
+.presentacion {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.bannerDonar {
+  background-image: linear-gradient(white, #dfdfdf);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.imagenesDonar {
+  background-color: #e9e9e9;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.sobreRescates {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.bannerContacto {
+  background-image: linear-gradient(white, #b6b6b6);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*Pagina inicio*/
+/*TABLET*/
+/*Media Queries*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  .presentacion {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .bannerDonar {
+    background-image: linear-gradient(white, #dfdfdf);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .imagenesDonar {
+    background-color: #e9e9e9;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .sobreRescates {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .bannerContacto {
+    background-image: linear-gradient(white, #b6b6b6);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
+
+/*FIN TABLET*/
+/*DESKTOP*/
+/*Pagina inicio*/
+/*Media Queries*/
+@media (min-width: 1024px) {
+  .presentacion {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .bannerDonar {
+    background-image: linear-gradient(white, #dfdfdf);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .imagenesDonar {
+    background-color: #e9e9e9;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .sobreRescates {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .bannerContacto {
+    background-image: linear-gradient(white, #b6b6b6);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
+
+/*FIN DESKTOP*/
+/******fin pagina inicio*******/
+/*pagina Donar*/
+/*Mobilefirst*/
+.introDonar {
+  background-color: #e7e7e7;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.imgD {
+  display: none; }
+
+.galeriaDonar {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.botonD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*TABLET DONAR*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  .introDonar {
+    background-color: #e7e7e7;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+  .imgD {
+    display: inline-block;
+    padding-top: 10px; }
+  .galeriaDonar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .botonD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
+
+/*DESKTOP DONAR*/
+@media (min-width: 1024px) {
+  .introDonar {
+    background-color: #e7e7e7;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+  .imgD {
+    display: inline-block;
+    padding-top: 10px; }
+  .galeriaDonar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .botonD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
+
+/*Hasta aca el desafio de 2 paginas con media y animaciones*/
+/*Pagina Rescates*/
+.introRescates {
+  display: flex;
+  background-image: linear-gradient(white, whitesmoke);
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.rescatesR {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.imgRescates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.sumate {
+  background-image: linear-gradient(white, #f1f1f1);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*pagina nosotros*/
+.introNosotros {
+  display: flex;
+  background-image: linear-gradient(white, #f0f0f0);
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.bannerN {
+  display: flex;
+  background-image: linear-gradient(white, #eeeeee);
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*pagina contacto*/
+.formulario {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.bordes {
+  border: 1px solid black; }
+
+img {
+  border-radius: 1px; }
+
+ul {
+  padding: 2px; }
+  ul li {
+    padding: 2px; }
+    ul li a {
+      color: aquamarine; }
+
+footer {
+  background-color: grey; }
