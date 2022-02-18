@@ -210,6 +210,26 @@ h4 {
 p {
   font-family: Arial, Helvetica, sans-serif; }
 
+/*lista de opciones*/
+/****************
+EACH - LISTAS
+@each $variable in // lista elemento1, elemento2, elemento3, etc {
+        Bloque repetido
+}
+***************/
+/*Map*/
+.btn-facebook {
+  background-color: #3a5795;
+  border: #3a5795; }
+
+.btn-instagram {
+  background-color: #0de0fc;
+  border: #0de0fc; }
+
+.btn-whatsapp {
+  background-color: #05ff2e;
+  border: #05ff2e; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -219,18 +239,12 @@ body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif; }
 
-.bordes {
-  border: 1px solid black; }
-
-img {
-  border-radius: 1px; }
-
 ul {
   padding: 2px; }
   ul li {
     padding: 2px; }
     ul li a {
-      color: aquamarine; }
+      color: black; }
 
 footer {
-  background-color: grey; }
+  background-color: lightgray; }

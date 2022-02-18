@@ -1,0 +1,24 @@
+/*lista de opciones*/
+/****************
+EACH - LISTAS
+@each $variable in // lista elemento1, elemento2, elemento3, etc {
+        Bloque repetido
+}
+***************/
+/*Map*/
+$colores:(
+    /* clave:  valor*/
+       
+        facebook:  #3a5795,
+        instagram: rgb(13, 224, 252),
+        whatsapp:   rgb(5, 255, 46),
+       
+    );
+
+    @each $nombre, $color in $colores {
+        .btn-#{$nombre} {
+            background-color: $color;
+            border: $color;
+            
+        }
+     }

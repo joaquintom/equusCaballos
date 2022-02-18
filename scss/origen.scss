@@ -3,7 +3,7 @@
 @import "variables";
 @import "responsive";
 @import "tipografias";
-
+@import "each";
 
 
 *{
@@ -20,18 +20,6 @@ body {
 }
 
 
-.bordes{
-
-    border: 1px solid black;
-
-}
-
-
-img{
-
-    border-radius: 1px;
-}
-
 ul{
     padding:2px;
 
@@ -40,12 +28,12 @@ ul{
     
     a{
 
-        color: aquamarine;
+        color: rgb(0, 0, 0);
     }
     }
-
 
 }
+
 
 footer{
 
