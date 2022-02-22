@@ -27,9 +27,7 @@
 
 .bannerContacto {
   background-image: linear-gradient(white, #b6b6b6);
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  text-align: center; }
 
 /*Pagina inicio*/
 /*TABLET*/
@@ -52,9 +50,7 @@
     padding-bottom: 40px; }
   .bannerContacto {
     background-image: linear-gradient(white, #b6b6b6);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; } }
+    text-align: center; } }
 
 /*FIN TABLET*/
 /*DESKTOP*/
@@ -78,9 +74,7 @@
     padding-bottom: 40px; }
   .bannerContacto {
     background-image: linear-gradient(white, #b6b6b6);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; } }
+    text-align: center; } }
 
 /*FIN DESKTOP*/
 /******fin pagina inicio*******/
@@ -230,6 +224,22 @@ EACH - LISTAS
   background-color: #05ff2e;
   border: #05ff2e; }
 
+.voluntariado, .voluntariado-2 {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.voluntariado-2 {
+  background-color: #ffd900; }
+
+.bannerContacto {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -248,3 +258,11 @@ ul {
 
 footer {
   background-color: lightgray; }
+
+button {
+  color: #fff;
+  background-color: black;
+  padding: 10px; }
+
+a {
+  color: lightgray; }

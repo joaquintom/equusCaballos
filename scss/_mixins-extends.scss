@@ -1,0 +1,28 @@
+
+
+.voluntariado{
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.voluntariado-2{
+    @extend .voluntariado;
+    background-color: rgb(255, 217, 0);
+    
+    }
+
+
+    
+    @mixin espacio($top, $bottom){
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+.bannerContacto{
+    @include espacio(30px, 30px);
+}
