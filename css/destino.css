@@ -158,7 +158,7 @@
 
 .imgRescates {
   display: flex;
-  justify-content: center;
+    justify-content: center;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -257,12 +257,17 @@ ul {
       color: black; }
 
 footer {
-  background-color: lightgray; }
-
-button {
-  color: #fff;
-  background-color: black;
-  padding: 10px; }
+  background-color: lightgray;
+  padding-top: 10px; }
 
 a {
-  color: lightgray; }
+  color: white; }
+
+.formWeb {
+  background-color: #ececec;
+  padding: 30px; }
+
+.footerCopy {
+  color: #444343;
+  background-color: lightgray;
+  padding: 5px; }
